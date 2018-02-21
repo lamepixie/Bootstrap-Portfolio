@@ -3,34 +3,106 @@
     <head>
         <title>Bootstrap Portfolio - Joellen Terranova</title>
 
-<!-- BOOTSTRAP CSS -->
+        <!-- BOOTSTRAP CSS -->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
         <!-- Optional CSS for safety -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-        <style>
-            .footer {
-                color: grey;
-                text-align: center; 
-            }
-        </style> 
+        <!-- Personal style sheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
     </head>
 
-    <body>
+    <body background="assets/images/spiration-light.png">
         <header>
-            <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-                <div class="container">
-                    <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active"><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+           <div class="header-container">
+               <div class="row">
+                   <div class="col-lg-12">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="index.html">Joellen Terranova</a>
+                                </div>
+
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
                 </div>
-            </nav>
+            </div>
         </header>
+
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <section class="main-section">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h1 class="panel-title">Portfolio</h1>
+                                </div>
+        
+                            <div class="panel-body">
+
+                                <div class="work">
+                                    <img src="assets/images/hangman.jpg" class="auth-image" alt="Hangman">
+                            
+                                    <h3>Hangman</h3>
+                                </div>
+                            
+                                <div class="work">
+                                    <img src="assets/images/rpg.jpg" class="auth-image" alt="RPG Games">
+                                
+                                    <h3>RPG Games</h3>
+                                </div>
+                            
+                                <div class="work">
+                                    <img src="assets/images/trivia.png" class="auth-image" alt="Trivia Game">
+                                    
+                                    <h3>Trivia Game</h3>
+                                </div>
+                            
+                                <div class="work">
+                                    <img src="assets/images/rutgers.jpg" class="auth-image" alt="Rutgers Info Widget">
+                                
+                                    <h3>Rutgers Info Widget</h3>
+                                </div>
+                            
+                                <div class="work">
+                                    <img src="assets/images/rps.jpg" class="auth-image" alt="Rock Paper Scissors">
+                                
+                                    <h3>Rock Paper Scissors</h3>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-lg-4">
+                            <section class="sidebar">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">Connect with Me</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <img src="assets/images/github.png" class="social" alt="Github">
+                                        <img src="assets/images/linkedin.png" class="social" alt="LinkedIn">
+                                        <img src="assets/images/overflow.png" class="social" alt="Stack Overflow">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
@@ -38,15 +110,14 @@
 
 
         <footer>
-            <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+            <nav class="navbar navbar-default navbar-fixed-bottom">
                 <div class="container">
                     <p class="footer">&copy; Joellen Terranova 2018</p>
                 </div>
             </nav>
         </footer>
 
-<!-- BOOTSTRAP JAVASCRIPT & JQUERY -->
-
+        <!-- BOOTSTRAP JAVASCRIPT & JQUERY -->
         <!-- JQuery -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
