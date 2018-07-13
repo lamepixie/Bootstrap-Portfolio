@@ -19,10 +19,10 @@
 
     </head>
 
-    <body background="assets/images/spiration-light.png">
+    <body>
         <header>
                 <div class="header-container">
-                     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
                          <a class="navbar-brand" href="index.html">Joellen Terranova</a>
                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                          <span class="navbar-toggler-icon"></span>
@@ -48,12 +48,12 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <section class="main-section">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h1 class="panel-title">Portfolio</h1>
+                            <div class="card card-default border-secondary mb-3">
+                                <div class="card-header">
+                                    <h1 class="card-title">Portfolio</h1>
                                 </div>
         
-                            <div class="panel-body">
+                            <div class="card-body">
 
                                 <div class="work">
                                     <a href="https://github.com/kyl3thegreat/gumbo" target="_blank">
@@ -100,11 +100,11 @@
 
                     <div class="col-lg-4">
                             <section class="sidebar">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                      <h3 class="panel-title">Connect with Me</h3>
+                                <div class="card card-default border-secondary mb-3">
+                                    <div class="card-header">
+                                      <h3 class="card-title">Connect with Me</h3>
                                     </div>
-                                    <div class="panel-body">
+                                    <div class="card-body">
                                         <a href="https://github.com/lamepixie" target="_blank">
                                         <img src="assets/images/github.png" class="image-responsive social" alt="Github">
                                         </a>
@@ -120,11 +120,13 @@
             </div>
 
         <footer>
-            <nav class="navbar navbar-default navbar-fixed-bottom">
-                <div class="container">
-                    <p class="footer">&copy; Joellen Terranova 2018</p>
-                </div>
-            </nav>
+            <div class="footer-container">
+                <nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <p class="footer">&copy; Joellen Terranova 2018</p>
+                    </div>
+                </nav>  
+            </div>
         </footer>
 
         <!-- BOOTSTRAP JAVASCRIPT & JQUERY -->

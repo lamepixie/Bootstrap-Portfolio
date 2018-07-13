@@ -1,3 +1,7 @@
+body {
+    background-image: url("../images/spiration-light.png");
+}
+
 * {box-sizing: border-box;}
 
 .auth-image {
@@ -57,8 +61,15 @@
     cursor: pointer;
 }
 
-.footer {
+.header-container {
+    padding-bottom: 40px;
+}
+
+.footer-container {
     position: static;
+    padding-top: 120px;
+}
+
+.center {
     text-align: center;
-    margin-top: 10px;
 }
