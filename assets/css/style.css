@@ -66,10 +66,13 @@ body {
 }
 
 .footer-container {
-    position: static;
-    padding-top: 120px;
+  padding-top: 120px;
 }
 
-.center {
+.container {
+    text-align: center;
+}
+
+.bottom-container {
     text-align: center;
 }
