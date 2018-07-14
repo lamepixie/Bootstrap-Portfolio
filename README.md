@@ -1,1 +1,1 @@
-[Portfolio](https://www.joellenterranova.com)
+[Click here to visit my portfolio](https://www.joellenterranova.com)
